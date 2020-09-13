@@ -1,5 +1,5 @@
 #include "common.h"
-#include "mci-sound.h"
+#include "mic-sound.h"
 #include "select-panel.h"
 #include "game-control.h"
 

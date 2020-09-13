@@ -21,15 +21,17 @@
 #define S_PLAYER_BOMB	13 // 队友爆炸
 #define S_PLAYER_MOVE	14 // 队友移动
 
+/**
+	初始化音效资源
+*/
+void InitSounds(); 
 
-//初始化音效资源
-
-void InitSounds();
-
-//释放音效资源
-
+/**
+	释放音效资源
+*/
 void CloseSounds();
 
-//播放指定编号的音效
-
+/**
+	播放指定编号的音效
+*/
 void PlaySounds(int kind);

@@ -77,10 +77,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
+    <ClInclude Include="game-control.h" />
     <ClInclude Include="mic-sound.h" />
     <ClInclude Include="select-panel.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="game-control.cpp" />
     <ClCompile Include="mic-sound.cpp" />
     <ClCompile Include="select-panel.cpp" />
     <ClCompile Include="TANKEYOU1.cpp" />
